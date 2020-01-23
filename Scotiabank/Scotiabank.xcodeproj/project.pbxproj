@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D94A52DD2D10A4E2956678 /* Pods_Scotiabank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B61F803965C94CB1750E7D /* Pods_Scotiabank.framework */; };
+		A05B76C123D9D4CA00FFA0FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05B76C023D9D4CA00FFA0FC /* AppDelegate.swift */; };
+		A05B76C323D9D4CA00FFA0FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05B76C223D9D4CA00FFA0FC /* SceneDelegate.swift */; };
+		A05B76C523D9D4CA00FFA0FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05B76C423D9D4CA00FFA0FC /* ContentView.swift */; };
+		A05B76C723D9D4CF00FFA0FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05B76C623D9D4CF00FFA0FC /* Assets.xcassets */; };
+		A05B76CA23D9D4CF00FFA0FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05B76C923D9D4CF00FFA0FC /* Preview Assets.xcassets */; };
+		A05B76CD23D9D4CF00FFA0FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05B76CB23D9D4CF00FFA0FC /* LaunchScreen.storyboard */; };
+		A05B76D823D9D4CF00FFA0FC /* ScotiabankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05B76D723D9D4CF00FFA0FC /* ScotiabankTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A05B76D423D9D4CF00FFA0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05B76B523D9D4CA00FFA0FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A05B76BC23D9D4CA00FFA0FC;
+			remoteInfo = Scotiabank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B61F803965C94CB1750E7D /* Pods_Scotiabank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scotiabank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		119FB62A8961DFBBEFA81814 /* Pods-Scotiabank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scotiabank.debug.xcconfig"; path = "Target Support Files/Pods-Scotiabank/Pods-Scotiabank.debug.xcconfig"; sourceTree = "<group>"; };
+		1D9ECAAA807C69160032B5B3 /* Pods-Scotiabank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scotiabank.release.xcconfig"; path = "Target Support Files/Pods-Scotiabank/Pods-Scotiabank.release.xcconfig"; sourceTree = "<group>"; };
+		A05B76BD23D9D4CA00FFA0FC /* Scotiabank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scotiabank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05B76C023D9D4CA00FFA0FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A05B76C223D9D4CA00FFA0FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A05B76C423D9D4CA00FFA0FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A05B76C623D9D4CF00FFA0FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A05B76C923D9D4CF00FFA0FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A05B76CC23D9D4CF00FFA0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A05B76CE23D9D4CF00FFA0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05B76D323D9D4CF00FFA0FC /* ScotiabankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScotiabankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05B76D723D9D4CF00FFA0FC /* ScotiabankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScotiabankTests.swift; sourceTree = "<group>"; };
+		A05B76D923D9D4CF00FFA0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A05B76BA23D9D4CA00FFA0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D94A52DD2D10A4E2956678 /* Pods_Scotiabank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05B76D023D9D4CF00FFA0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523D2989E769ABE5907803FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06B61F803965C94CB1750E7D /* Pods_Scotiabank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A05B76B423D9D4CA00FFA0FC = {
+			isa = PBXGroup;
+			children = (
+				A05B76BF23D9D4CA00FFA0FC /* Scotiabank */,
+				A05B76D623D9D4CF00FFA0FC /* ScotiabankTests */,
+				A05B76BE23D9D4CA00FFA0FC /* Products */,
+				D9C75C1F104555E7C3DF7C21 /* Pods */,
+				523D2989E769ABE5907803FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A05B76BE23D9D4CA00FFA0FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A05B76BD23D9D4CA00FFA0FC /* Scotiabank.app */,
+				A05B76D323D9D4CF00FFA0FC /* ScotiabankTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A05B76BF23D9D4CA00FFA0FC /* Scotiabank */ = {
+			isa = PBXGroup;
+			children = (
+				A05B76C023D9D4CA00FFA0FC /* AppDelegate.swift */,
+				A05B76C223D9D4CA00FFA0FC /* SceneDelegate.swift */,
+				A05B76C423D9D4CA00FFA0FC /* ContentView.swift */,
+				A05B76C623D9D4CF00FFA0FC /* Assets.xcassets */,
+				A05B76CB23D9D4CF00FFA0FC /* LaunchScreen.storyboard */,
+				A05B76CE23D9D4CF00FFA0FC /* Info.plist */,
+				A05B76C823D9D4CF00FFA0FC /* Preview Content */,
+			);
+			path = Scotiabank;
+			sourceTree = "<group>";
+		};
+		A05B76C823D9D4CF00FFA0FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A05B76C923D9D4CF00FFA0FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A05B76D623D9D4CF00FFA0FC /* ScotiabankTests */ = {
+			isa = PBXGroup;
+			children = (
+				A05B76D723D9D4CF00FFA0FC /* ScotiabankTests.swift */,
+				A05B76D923D9D4CF00FFA0FC /* Info.plist */,
+			);
+			path = ScotiabankTests;
+			sourceTree = "<group>";
+		};
+		D9C75C1F104555E7C3DF7C21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				119FB62A8961DFBBEFA81814 /* Pods-Scotiabank.debug.xcconfig */,
+				1D9ECAAA807C69160032B5B3 /* Pods-Scotiabank.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A05B76BC23D9D4CA00FFA0FC /* Scotiabank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05B76DC23D9D4CF00FFA0FC /* Build configuration list for PBXNativeTarget "Scotiabank" */;
+			buildPhases = (
+				B4CFEA1EF9B0284989513C9C /* [CP] Check Pods Manifest.lock */,
+				A05B76B923D9D4CA00FFA0FC /* Sources */,
+				A05B76BA23D9D4CA00FFA0FC /* Frameworks */,
+				A05B76BB23D9D4CA00FFA0FC /* Resources */,
+				80DC34EEF1CA328D2A818E7F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scotiabank;
+			productName = Scotiabank;
+			productReference = A05B76BD23D9D4CA00FFA0FC /* Scotiabank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A05B76D223D9D4CF00FFA0FC /* ScotiabankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05B76DF23D9D4CF00FFA0FC /* Build configuration list for PBXNativeTarget "ScotiabankTests" */;
+			buildPhases = (
+				A05B76CF23D9D4CF00FFA0FC /* Sources */,
+				A05B76D023D9D4CF00FFA0FC /* Frameworks */,
+				A05B76D123D9D4CF00FFA0FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05B76D523D9D4CF00FFA0FC /* PBXTargetDependency */,
+			);
+			name = ScotiabankTests;
+			productName = ScotiabankTests;
+			productReference = A05B76D323D9D4CF00FFA0FC /* ScotiabankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A05B76B523D9D4CA00FFA0FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Eduardo Oliveros Acosta";
+				TargetAttributes = {
+					A05B76BC23D9D4CA00FFA0FC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A05B76D223D9D4CF00FFA0FC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = A05B76BC23D9D4CA00FFA0FC;
+					};
+				};
+			};
+			buildConfigurationList = A05B76B823D9D4CA00FFA0FC /* Build configuration list for PBXProject "Scotiabank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A05B76B423D9D4CA00FFA0FC;
+			productRefGroup = A05B76BE23D9D4CA00FFA0FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A05B76BC23D9D4CA00FFA0FC /* Scotiabank */,
+				A05B76D223D9D4CF00FFA0FC /* ScotiabankTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A05B76BB23D9D4CA00FFA0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05B76CD23D9D4CF00FFA0FC /* LaunchScreen.storyboard in Resources */,
+				A05B76CA23D9D4CF00FFA0FC /* Preview Assets.xcassets in Resources */,
+				A05B76C723D9D4CF00FFA0FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05B76D123D9D4CF00FFA0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80DC34EEF1CA328D2A818E7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scotiabank/Pods-Scotiabank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scotiabank/Pods-Scotiabank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scotiabank/Pods-Scotiabank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4CFEA1EF9B0284989513C9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scotiabank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A05B76B923D9D4CA00FFA0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05B76C123D9D4CA00FFA0FC /* AppDelegate.swift in Sources */,
+				A05B76C323D9D4CA00FFA0FC /* SceneDelegate.swift in Sources */,
+				A05B76C523D9D4CA00FFA0FC /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05B76CF23D9D4CF00FFA0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05B76D823D9D4CF00FFA0FC /* ScotiabankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A05B76D523D9D4CF00FFA0FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A05B76BC23D9D4CA00FFA0FC /* Scotiabank */;
+			targetProxy = A05B76D423D9D4CF00FFA0FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A05B76CB23D9D4CF00FFA0FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05B76CC23D9D4CF00FFA0FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A05B76DA23D9D4CF00FFA0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A05B76DB23D9D4CF00FFA0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A05B76DD23D9D4CF00FFA0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119FB62A8961DFBBEFA81814 /* Pods-Scotiabank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Scotiabank/Preview Content\"";
+				DEVELOPMENT_TEAM = 25PT4M6QRZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Scotiabank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CEO.Scotiabank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A05B76DE23D9D4CF00FFA0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9ECAAA807C69160032B5B3 /* Pods-Scotiabank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Scotiabank/Preview Content\"";
+				DEVELOPMENT_TEAM = 25PT4M6QRZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Scotiabank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CEO.Scotiabank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A05B76E023D9D4CF00FFA0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25PT4M6QRZ;
+				INFOPLIST_FILE = ScotiabankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CEO.ScotiabankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scotiabank.app/Scotiabank";
+			};
+			name = Debug;
+		};
+		A05B76E123D9D4CF00FFA0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25PT4M6QRZ;
+				INFOPLIST_FILE = ScotiabankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CEO.ScotiabankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scotiabank.app/Scotiabank";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A05B76B823D9D4CA00FFA0FC /* Build configuration list for PBXProject "Scotiabank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05B76DA23D9D4CF00FFA0FC /* Debug */,
+				A05B76DB23D9D4CF00FFA0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05B76DC23D9D4CF00FFA0FC /* Build configuration list for PBXNativeTarget "Scotiabank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05B76DD23D9D4CF00FFA0FC /* Debug */,
+				A05B76DE23D9D4CF00FFA0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05B76DF23D9D4CF00FFA0FC /* Build configuration list for PBXNativeTarget "ScotiabankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05B76E023D9D4CF00FFA0FC /* Debug */,
+				A05B76E123D9D4CF00FFA0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A05B76B523D9D4CA00FFA0FC /* Project object */;
+}
